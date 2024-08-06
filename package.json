@@ -1,0 +1,16 @@
+{
+    "name": "hendoi-project",
+    "version": "1.0.0",
+    "scripts": {
+      "start": "cd frontend && npm start",
+      "build": "cd frontend && npm run build",
+      "install": "cd frontend && npm install && cd ../backend && npm install"
+    },
+    "dependencies": {
+      "express": "^4.17.1",
+      "serverless-http": "^2.7.0",
+      "nodemailer": "^6.6.3",
+      "cors": "^2.8.5",
+      "dotenv": "^10.0.0"
+    }
+  }
