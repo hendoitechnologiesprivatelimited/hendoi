@@ -20,3 +20,5 @@ app.post('/', async (req, res) => {
 });
 
 export const handler = serverless(app);
+
+console.log('API function loaded');

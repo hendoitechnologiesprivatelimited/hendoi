@@ -193,7 +193,9 @@ const Contact = () => {
 
   const handleSubmit = async (values, { setSubmitting, resetForm }) => {
     try {
+      console.log('Submitting form with values:', values);
       const response = await sendContactForm(values);
+      console.log('Response from server:', response);
       if (response.success) {
         setSubmitStatus({ type: 'success', message: 'Message sent successfully!' });
         resetForm();
