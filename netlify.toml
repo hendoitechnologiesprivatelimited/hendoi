@@ -1,11 +1,11 @@
 [build]
-  base = "frontend"
-  command = "npm install && npm run build"
-  publish = "build"
-  functions = "../backend"
+  base = "."
+  command = "npm run build"
+  publish = "frontend/build"
+  functions = "backend"
 
 [functions]
-  directory = "../backend"
+  directory = "backend"
   node_bundler = "esbuild"
 
 [[plugins]]
