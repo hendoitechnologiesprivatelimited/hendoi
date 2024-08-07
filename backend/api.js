@@ -18,4 +18,4 @@ app.post('/', async (req, res) => {
   }
 });
 
-export const api = serverless(app);
+export const handler = serverless(app);
