@@ -159,6 +159,8 @@ const CloudApplicationDevelopment = () => {
       <Helmet>
         <title>Cloud Application Development | Elevate Your Business with Hendoi Technologies</title>
         <meta name="description" content="Transform your business with our expert cloud application development services. Harness the power of AWS, GCP, and Azure for enhanced scalability, security, and global accessibility. Let's build your future in the cloud!" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
       </Helmet>
       <Section
         ref={ref}

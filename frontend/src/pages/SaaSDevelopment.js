@@ -170,6 +170,8 @@ const SaaSDevelopment = () => {
        <Helmet>
         <title>Custom SaaS Development | Transform Your Business with Hendoi Technologies</title>
         <meta name="description" content="Revolutionize your business with custom SaaS solutions from Hendoi Technologies. From CRM to analytics, we create scalable, secure, and user-friendly software that grows with your business. Let's build your SaaS success story!" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
       </Helmet>
       <Section
         ref={ref}

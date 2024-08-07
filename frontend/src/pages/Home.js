@@ -212,6 +212,8 @@ const Home = () => {
       <Helmet>
         <title>Hendoi Technologies - Web, Mobile, Cloud, SaaS Development</title>
         <meta name="description" content="Transform your business with our cutting-edge digital solutions. We offer web design, mobile app development, digital marketing, hosting, cloud solutions, and SaaS development services." />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
       </Helmet>
       <HeroSection>
         <Container>

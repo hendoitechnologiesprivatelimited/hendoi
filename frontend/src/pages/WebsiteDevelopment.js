@@ -191,6 +191,7 @@ const WebsiteDevelopment = () => {
     <PageContainer>
        <Helmet>
         <title>Custom Website Development | Boost Your Business Online</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="Transform your business with a custom website from Hendoi Technologies. We offer tailored web solutions for e-commerce, booking systems, business showcases, and personal branding. Let's create your dream website together!" />
       </Helmet>
       <Section

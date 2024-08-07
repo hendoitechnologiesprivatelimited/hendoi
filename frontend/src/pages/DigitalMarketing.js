@@ -194,6 +194,8 @@ const DigitalMarketing = () => {
        <Helmet>
         <title>Boost Your Business with Expert Digital Marketing | Hendoi Technologies</title>
         <meta name="description" content="Skyrocket your online presence with our comprehensive digital marketing services. From SEO and social media to PPC and content marketing, we've got the tools to grow your business. Let's create your digital success story!" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
       </Helmet>
       <Section
         ref={ref}

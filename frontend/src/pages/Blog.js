@@ -196,6 +196,8 @@ const Blog = () => {
        <Helmet>
         <title>Hendoi Technologies Blog | Insights on Web, Mobile, and Cloud Development</title>
         <meta name="description" content="Explore the latest insights, tips, and trends in web development, mobile app creation, cloud solutions, and digital marketing from Hendoi Technologies' expert team." />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
       </Helmet>
       <h1 style={styles.blogTitle}>Our Blog</h1>
       <div style={styles.searchContainer}>

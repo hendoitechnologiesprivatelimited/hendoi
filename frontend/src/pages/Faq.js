@@ -216,6 +216,8 @@ const Faq = () => {
        <Helmet>
         <title>FAQ | Hendoi Technologies - Your Digital Solutions Partner</title>
         <meta name="description" content="Find answers to common questions about Hendoi Technologies' services, including web and mobile app development, cloud solutions, digital marketing, project timelines, pricing, and more." />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
       </Helmet>
       <FaqHeading
         initial={{ opacity: 0, y: -20 }}

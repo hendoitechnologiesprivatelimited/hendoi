@@ -167,6 +167,8 @@ const WebEmailAppHosting = () => {
       <Helmet>
         <title>Comprehensive Hosting Solutions | Website, App & Email Hosting | Hendoi Technologies</title>
         <meta name="description" content="Supercharge your digital presence with Hendoi Technologies' integrated hosting solutions. We offer secure, scalable hosting for websites, mobile apps, web apps, and email. Power up your online business today!" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
       </Helmet>
       <Section
         ref={ref}

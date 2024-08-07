@@ -141,6 +141,8 @@ const About = () => {
       <Helmet>
         <title>About Hendoi Technologies | Innovative Digital Solutions Provider</title>
         <meta name="description" content="Learn about Hendoi Technologies, a Chennai-based tech company specializing in web and app development, cloud solutions, and digital marketing. Discover our mission, services, and why businesses choose us." />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
       </Helmet>
       <AboutSection
         initial="hidden"

@@ -18,6 +18,8 @@ const BlogPost = () => {
     <div className="blog-post-container">
       <Helmet>
         <title>{post.title} | Hendoi Technologies Blog</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
         <meta name="description" content={metaDescription} />
       </Helmet>
       <Link to="/blog" className="back-link">&larr; Back to Blog</Link>

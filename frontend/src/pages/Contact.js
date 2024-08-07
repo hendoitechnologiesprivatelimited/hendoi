@@ -244,6 +244,8 @@ const Contact = () => {
       <Helmet>
         <title>Contact Hendoi Technologies | Get in Touch for Digital Solutions</title>
         <meta name="description" content="Contact Hendoi Technologies for innovative web, mobile, and cloud solutions. Reach out via phone, email, or visit our office in Chennai. Let's discuss your digital needs today!" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
       </Helmet>
       <ContactInfo variants={childVariants}>
         <CompanyName>

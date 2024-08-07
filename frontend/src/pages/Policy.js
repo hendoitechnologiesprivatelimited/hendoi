@@ -123,6 +123,8 @@ const Policy = () => {
       <Helmet>
         <title>Our Policies | Transparency and Commitment at Hendoi Technologies</title>
         <meta name="description" content="Learn about Hendoi Technologies' policies on work delivery, payments, data security, and client support. We're committed to transparency, security, and your complete satisfaction." />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
       </Helmet>
       <PolicyHeader
         initial={{ opacity: 0, y: -50 }}

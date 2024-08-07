@@ -192,6 +192,8 @@ const MobileAppDevelopment = () => {
       <Helmet>
         <title>Custom Mobile App Development | Transform Your Business</title>
         <meta name="description" content="Turn your app idea into reality with Hendoi Technologies. We create innovative, user-friendly mobile apps for iOS and Android. From e-commerce to lifestyle apps, we've got you covered. Let's build your dream app together!" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
       </Helmet>
       <Section
         ref={ref}
