@@ -11,7 +11,7 @@ const api = axios.create({
 
 export const sendContactForm = async (formData) => {
   try {
-    const response = await api.post('/api/send-email', formData);
+    const response = await api.post('/api', formData);
     return response.data;
   } catch (error) {
     console.error('Error sending contact form:', error);
