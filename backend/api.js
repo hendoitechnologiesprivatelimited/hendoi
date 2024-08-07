@@ -1,7 +1,7 @@
-const express = require('express');
-const serverless = require('serverless-http');
-const cors = require('cors');
-const sendEmail = require('./sendEmail');
+import express from 'express';
+import serverless from 'serverless-http';
+import cors from 'cors';
+import { sendEmail } from './sendEmail.js';
 
 const app = express();
 
@@ -18,4 +18,4 @@ app.post('/api/send-email', async (req, res) => {
   }
 });
 
-module.exports.handler = serverless(app);
+export const handler = serverless(app);
